@@ -7,5 +7,5 @@ Demo: https://raaaf.github.io/Starterpacket
 - Folder Structure
 - Based on the KUBE-Framework
 - MatchHeight.js
-- jQUery served by CDN
-- Favions by http://realfavicongenerator.net/
+- jQuery served by CDN
+- Favions by realfavicongenerator.net
