@@ -1,7 +1,7 @@
 # Starterpacket
 Basic Starting Template
 
-Demo: https://raaaf.github.io/Starterpacket
+Demo: https://raaaf.github.io/Starting-Template
 
 - LATO by Google Web Fonts
 - Folder Structure
