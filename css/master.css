@@ -1,0 +1,275 @@
+/* FONTS */ 
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather:300,400,700';
+
+/* CSS */
+
+a,
+a:hover
+{
+	transition: all .25s ease-in-out;
+} 
+
+html
+{
+	font-size: 100%;
+}
+
+body
+{
+	background: #fff;
+	font-family: 'Merriweather', serif;
+	color: #111;
+	position: relative;
+	overflow: hidden;
+	font-size: 1em;
+}
+
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 999;
+}
+
+#status {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-image: url(../img/status.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+}
+
+.container
+{
+	width: 90%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.container p
+{
+	max-width: 46.25em;
+}
+
+section
+{
+	padding: 100px 0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.subTitle
+{
+	margin-bottom: 0.1em;
+}
+
+.subTitle + h2,
+.subTitle + h3,
+.subTitle + h4,
+.subTitle + h5,
+.subTitle + h6
+{
+	font-weight: 400;
+	margin-bottom: 1.2em;
+}
+
+p
+{
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 2em;
+	color: #aaa;
+}
+
+a
+{
+	color: #62c855;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	color: #78d86b;
+	text-decoration: none;
+}
+
+.btn
+{
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	background-color: #aaa;
+}
+
+.btn:hover
+{
+	background-color: #ccc
+}
+
+.btn.cta
+{
+	background-color: #62c855;
+}
+
+.btn.cta:hover
+{
+	background-color: #78d86b;
+}
+
+/* HEADER */
+
+/* CONTENT */
+
+/* FOOTER */
+
+/* FORMS */
+
+select[multiple], select[multiple="multiple"], textarea, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="phone"], input[type="tel"], input[type="number"], input[type="datetime"], input[type="date"], input[type="month"], input[type="color"], input[type="time"], input[type="search"], input[type="datetime-local"]
+{
+	border: 0;
+	border-bottom: 1px solid #888;
+	margin-bottom: 0.75em;
+	background: none;
+	color: #fff;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="phone"]:focus, input[type="tel"]:focus, input[type="number"]:focus, input[type="datetime"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="color"]:focus, input[type="time"]:focus, input[type="search"]:focus, input[type="datetime-local"]:focus, textarea:focus
+{
+	box-shadow: 0 0 0;
+	border-color: #fff;
+
+}
+
+input:focus { 
+	border: 0;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+}
+
+::-webkit-input-placeholder {
+	color: #888;
+}
+
+:-moz-placeholder { 
+	color: #888;  
+}
+
+::-moz-placeholder { 
+	color: #888;  
+}
+
+:-ms-input-placeholder {  
+	color: #888;  
+}
+
+/* RESP NAVI */
+
+#menu
+{
+	display: none;
+}
+
+.resp-menu
+{
+	position: absolute;
+	top: 0;
+	right: 25px;
+}
+
+/* MEDIA */
+
+@media (max-width: 1024px)
+{
+
+}
+
+@media (max-width: 768px)
+{
+	#menu
+	{
+		display: block;
+		line-height: 20px;
+		text-align: center;
+		text-decoration: none;
+		color: #888;
+		padding-top: 24px;
+	}
+
+	header .navbar
+	{
+		display: none;
+	}
+
+}
+
+/* ANIMATIONS */
+
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.delay-1
+{
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+.delay-2
+{
+	-webkit-animation-delay: .75s;
+	animation-delay: .75s;
+}
+
+.delay-3
+{
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+@-webkit-keyframes fadeInDown {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+
