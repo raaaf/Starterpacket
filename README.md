@@ -3,9 +3,9 @@ Basic Starting Template
 
 Demo: https://raaaf.github.io/Starterpacket
 
-- Preloader
+- LATO by Google Web Fonts
 - Folder Structure
-- Based on the KUBE-Framework
-- MatchHeight.js
+- Based on KUBE-Framework
 - jQuery served by CDN
-- Favions by realfavicongenerator.net
+- Preloader + Smooth ScrollTo + MatchHeight.js
+- Favicons by realfavicongenerator.net
